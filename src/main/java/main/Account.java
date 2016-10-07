@@ -1,3 +1,4 @@
+//Kevin Faucher
 package main;
 import java.util.Date;
 
@@ -8,16 +9,13 @@ public class Account {
 	private int id = 0;
 	private double balance=0;
 	private static double annualInterestRate = 0;
-	//private Date dateCreated;
 	private final Date dateCreated=new Date();
 	
 	public Account() {
-		// this.dateCreated= new Date();
 	}
 	
 
 	public Account(int id, double balance) {
-		//this.dateCreated= new Date();
 		this.id = id;
 		this.balance = balance;
 	}
